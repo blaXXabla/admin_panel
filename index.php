@@ -6,7 +6,7 @@
  * Time: 14:09
  */
 
-require 'ressources/smarty-3.1.29/libs/Smarty.class.php';
+require 'ressource/smarty-3.1.29/libs/Smarty.class.php';
 
 $smarty = new Smarty;
 
