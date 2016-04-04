@@ -38,6 +38,16 @@ $smarty->assign('images', array("ressource/images/mon_site.png",
     "ressource/images/plex.png",
     "ressource/images/yamaha.png",));
 
+$test = array("http://www.edouard-louyot.fr",
+    "http://www.edouard-louyot.fr/net2ftp/ftp/index.php", // TODO changer de client FTP
+    "https://cpanel.hostinger.fr/",
+    "http://edouard88100.quickconnect.to/",
+    "https://app.plex.tv/web/app",
+    ""); // TODO Mettre le lien  page web ampli (enlever le dhcp de l'ampli)
+
+foreach ($test as $item) {
+    echo ($item.("</br>"));
+}
 
 
 $smarty->display('templates/index.tpl');

@@ -25,8 +25,9 @@
     float: initial;
 }
 
-.position_td_fixe{
+.position_lien_raccourcie{
     float: left;
+    margin-right: 10px;
 }
 
 .google{

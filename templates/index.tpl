@@ -11,7 +11,7 @@
     <body>
         <table>
             <tr>
-                <td>
+                <td class="position_lien_raccourcie">
                     {foreach from=$liens key=k item=lien}
                         <div class="col-md-4 position_logo_site ">
                             <a href={$lien} target="_blank">
@@ -19,6 +19,21 @@
                             </a>
                         </div>
                     {/foreach}
+                </td>
+                <td rowspan="3" class="google">
+                    <script>
+                        (function() {
+                            var cx = '008828387341488628027:vpscwuac6ey';
+                            var gcse = document.createElement('script');
+                            gcse.type = 'text/javascript';
+                            gcse.async = true;
+                            gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                                    '//cse.google.com/cse.js?cx=' + cx;
+                            var s = document.getElementsByTagName('script')[0];
+                            s.parentNode.insertBefore(gcse, s);
+                        })();
+                    </script>
+                    <gcse:search></gcse:search>
                 </td>
             </tr>
         </table>
