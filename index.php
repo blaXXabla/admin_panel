@@ -30,6 +30,7 @@ foreach ($xml as $key => $type){
         }
     }
 }
+
 // titre de la page internet
 $smarty->assign("title", "bonjour");
 
@@ -47,13 +48,5 @@ $smarty->assign("nom6","");
 //variable smarty pours les images des raccourcis
 
 $smarty->assign('images', $images);
-
-$test = array("http://www.edouard-louyot.fr",
-    "http://www.edouard-louyot.fr/net2ftp/ftp/index.php", // TODO changer de client FTP
-    "https://cpanel.hostinger.fr/",
-    "http://edouard88100.quickconnect.to/",
-    "https://app.plex.tv/web/app",
-    ""); // TODO Mettre le lien  page web ampli (enlever le dhcp de l'ampli)
-
 
 $smarty->display('templates/index.tpl');

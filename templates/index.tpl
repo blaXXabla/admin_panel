@@ -11,16 +11,18 @@
     <body>
         <table>
             <tr>
-                <td class="position_lien_raccourcie">
+                <td class="col-md-1 position_lien_raccourcie">
                     {foreach from=$liens key=k item=lien}
-                        <div class="col-md-4 position_logo_site ">
-                            <a href={$lien} target="_blank">
-                                <img src={$images[$k]} class="img-circle img_site_resize">
-                            </a>
-                        </div>
+                        {if isset ($images[$k])}
+                            <div class="col-md-4 position_logo_site ">
+                                <a href={$lien} target="_blank">
+                                    <img src={$images[$k]} class="img_site_resize">
+                                </a>
+                            </div>
+                        {/if}
                     {/foreach}
                 </td>
-                <td rowspan="3" class="google">
+                <td rowspan="3" class="col-md-8 google">
                     <script>
                         (function() {
                             var cx = '008828387341488628027:vpscwuac6ey';
@@ -34,6 +36,8 @@
                         })();
                     </script>
                     <gcse:search></gcse:search>
+                </td>
+                <td rowspan="3" class="col-md-3">
                 </td>
             </tr>
         </table>
