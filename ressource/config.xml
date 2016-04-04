@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<liens>
+		<lien>
+			http://www.edouard-louyot.fr
+		</lien>
+		<lien>
+			http://www.edouard-louyot.fr/net2ftp/ftp/index.php
+		</lien>
+		<lien>
+			https://cpanel.hostinger.fr/
+		</lien>
+		<lien>
+			http://edouard88100.quickconnect.to/
+		</lien>
+		<lien>
+			https://app.plex.tv/web/app
+		</lien>
+		<lien>
+
+		</lien>
+	</liens>
+	<images>
+		<image>
+			ressource/images/mon_site.png
+		</image>
+		<image>
+			ressource/images/filezilla.png
+		</image>
+		<image>
+			ressource/images/hostinger.png
+		</image>
+		<image>
+			ressource/images/nas_2.png
+		</image>
+		<image>
+			ressource/images/plex.png
+		</image>
+		<image>
+			ressource/images/yamaha.png
+		</image>
+	</images>
+	<noms>
+		<nom>
+
+		</nom>
+		<nom>
+
+		</nom>
+		<nom>
+
+		</nom>
+		<nom>
+
+		</nom>
+		<nom>
+
+		</nom>
+		<nom>
+
+		</nom>
+	</noms>
+</data>

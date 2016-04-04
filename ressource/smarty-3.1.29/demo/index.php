@@ -14,7 +14,6 @@ $smarty->debugging = true;
 $smarty->caching = true;
 $smarty->cache_lifetime = 120;
 
-$config=fopen('ress')
 
 
 
