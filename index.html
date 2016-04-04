@@ -2,12 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Accueil</title>
+    <title>Panneau</title>
+    <link rel="stylesheet" type="text/css" href="ressource/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="ressource/css/style.css">
+    <script type="text/javascript" src="ressource/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="ressource/jquery-2.2.1.js"></script>
 </head>
 <body>
+<div class="margin_button">
+    <a href="root.edouard-louyot.fr"><button type="button" class="btn btn-default btn-lg">Admin panel</button></a>
+</div>
 
-    hello world
+<div class="container-fluid">
+    <table>
+        <tr>
+            <td class="position_td_fixe">
+                <div class="col-md-4 margin_top position_site_width">
+                    <a href="http://www.edouard-louyot.fr" target="_blank">
+                        <img src="ressource/images/mon_site.png" class="img-circle img_site_resize">
+                    </a>
+                </div>
+                <div class="col-md-4 margin_top position_site_width">
+                    <a href="http://www.edouard-louyot.fr/net2ftp/ftp/index.php" target="_blank"> <!-- TODO changer de client FTP -->
+                        <img src="ressource/images/filezilla.png" class="img-circle img_site_resize">
+                    </a>
+                </div>
+                <div class="col-md-4 margin_top position_site_width">
+                    <a href="https://cpanel.hostinger.fr/" target="_blank">
+                        <img src="ressource/images/hostinger.png" class="img-circle img_site_resize">
+                    </a>
+                </div>
+                <div class="col-md-4 margin_top position_site_width">
+                    <a href="http://edouard88100.quickconnect.to/" target="_blank">
+                        <img src="ressource/images/nas_2.png" class="img-circle img_site_resize">
+                    </a>
+                </div>
+                <div class="col-md-4 margin_top position_site_width">
+                    <a href="https://app.plex.tv/web/app" target="_blank">
+                        <img src="ressource/images/plex.png" class="img-circle img_site_resize">
+                    </a>
+                </div>
+                <div class="col-md-4 margin_top position_site_width">
+                    <a href="" target="_blank"> <!-- TODO Mettre le lien  page web ampli (enlever le dhcp de l'ampli)  -->
+                        <img src="ressource/images/yamaha.png" class="img-circle img_site_resize">
+                    </a>
+                </div>
+            </td>
 
-
+            <td rowspan="3" class="google">
+                <script>
+                    (function() {
+                        var cx = '008828387341488628027:vpscwuac6ey';
+                        var gcse = document.createElement('script');
+                        gcse.type = 'text/javascript';
+                        gcse.async = true;
+                        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                                '//cse.google.com/cse.js?cx=' + cx;
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(gcse, s);
+                    })();
+                </script>
+                <gcse:search></gcse:search>
+            </td>
+        </tr>
+    </table>
+</div>
 </body>
 </html>

@@ -12,5 +12,6 @@ $smarty = new Smarty;
 
 $smarty->assign("Name", "Fred Irving Johnathan Bradley Peppergill", true);
 $smarty->assign("FirstName", array("John", "Mary", "James", "Henry"));
+$smarty->assign("title", "bonjour");
 
-$smarty->display('index.tpl');
+$smarty->display('templates/index.tpl');
