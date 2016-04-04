@@ -1,0 +1,37 @@
+.bloc_center{
+    margin-left: 5%;
+    color: red;
+}
+
+.margin_top{
+    margin-top: 5%;
+}
+
+.border{
+    border: solid;
+}
+
+.margin_button{
+    margin: 2%;
+}
+
+.google{
+    position: relative;
+}
+
+.img_site_resize{
+    width:80px; /* you can use % */
+    height: 80px;
+}
+
+.position_site_width{
+    width: auto; !important;
+}
+
+.position_td_fixe{
+    float: left;
+}
+
+.google{
+    vertical-align: top;
+}
