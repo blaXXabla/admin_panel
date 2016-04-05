@@ -1,14 +1,14 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: louyot
- * Date: 04/04/2016
- * Time: 14:09
+ * User: louyo
+ * Date: 05/04/2016
+ * Time: 15:09
  */
 
 require 'ressource/smarty-3.1.29/libs/Smarty.class.php';
+$smarty = new Smarty();
 
-$smarty = new Smarty;
 
 $fichier = "ressource/config.xml";
 $xml = simplexml_load_file($fichier);
@@ -43,4 +43,4 @@ $smarty->assign('images', $images);
 //variable smarty pours les images des raccourcis
 $smarty->assign('noms', $noms);
 
-$smarty->display('templates/index.tpl');
+$smarty->display('templates/admin.tpl');
