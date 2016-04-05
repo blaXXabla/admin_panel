@@ -20,7 +20,7 @@
 
         <!-- Button trigger modal -->
         <button id="boutton_modif" type="button" class="coucou btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-            Modifiéé
+            Modifier
         </button>
 
         <!-- Modal -->
